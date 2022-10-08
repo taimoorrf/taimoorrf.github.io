@@ -44,6 +44,7 @@ nav a:hover {
 
 nav a.active-page {
     font-weight: 1000;
+    text-decoration: underline;
 }
 
 
