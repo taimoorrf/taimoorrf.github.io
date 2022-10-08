@@ -1,1 +1,81 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+<!-- All of the meta data for the page belongs in the header tag -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+	<title>Home | Taimoor Arif</title>
+</head>
+
+<body>
+	<div class='skip'>
+		<a href="#main">
+			Skip to Main Content
+		</a>
+	</div>
+
+	<header>
+		<nav>
+			<a href="./index.html" class="active-page">
+				Home
+			</a>
+			<a href="./aboutme.html">
+				About me
+			</a>
+			<a href="./projects.html">
+				Projects
+			</a>
+			<a href="./gallery.html">
+				My Gallery
+			</a>
+		</nav>
+	</header>
+
+	<main id='main'>
+		<script>
+			function playName(){
+				var audio = new Audio('./assets/name.wav');
+				audio.play();
+			}
+		</script>
+		<div class='grid'>
+			<div class="box-a-home">
+				<figure>
+					<img src="images/home-bg.jpg" class="home-bg" alt="background of homepage">
+					<img src="images/homepage-photo.jpg" class="home-photo" alt="A photo of me" width="200"/>
+				</figure>
+			</div>
+
+			<div class="box-b-home">
+				<h1>
+					<img src="images/hi.png" alt="Bitmoji of me" width="100"/>
+					I am 
+					Taimoor <span class="urdu">(تیمور)</span>
+					<img src="images/sound.jpg" alt="sound image" width="30" style="cursor: pointer;" onclick="playName()"/>
+					Welcome to my portfolio!
+				</h1>
+				<p class="main-para">
+					I am a first year graduate student at the University of Michigan - Ann Arbor, pursuing a Master's in Information Science - Data Science.<br>
+					I got my undergraduate degree in Computer Science from the Lahore University of Management Sciences. My research interests include:<br>
+				</p>
+					<ol>
+						<li>Software Development</li>
+						<li>Machine Learning</li>
+						<li>Data Science</li>
+						<li>ICT4D</li>
+					</ol>
+				<button id='resume-button' rel="noreferrer noopener">
+					My resume
+				</button>
+			</div>
+		</div>
+	</main>
+	<footer>
+		Copyright © 2022 Taimoor Arif
+	</footer>
+</body>
+</html>

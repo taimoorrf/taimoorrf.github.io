@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@500;700&family=Open+Sans:ital,wght@0,300;1,300&family=Space+Mono&display=swap');
+
+.skip{
+    font-family: 'Times New Roman', Times, serif;
+    background: white;
+    left: 0;
+    padding: 6px;
+    text-align: center;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    /* top: -300px; */
+}
+
+.skip:focus {
+    font-family: 'Times New Roman', Times, serif;
+    background: white;
+    top: 0px;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
+
+nav {
+    background-color: #88aab4;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: 1000;
+}
+
+nav a.active-page {
+    font-weight: 1000;
+}
+
+
+.home-bg {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.home-photo {
+    /* Padding and margin were not necesary for this image's styling. They will be used for later images */
+    position: absolute;
+    margin-top: 157px;
+    margin-left: -527px;
+    width: 345px;
+    height: 495px;
+    z-index: 1;
+    transform: rotate(-0.38deg);
+    transition: width .2s, height .2s;
+}
+
+.home-photo:hover {
+    width: 384px;
+    height: 534px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.urdu {
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+
+.box-a-home {
+    width: auto;
+}
+
+.box-b-home {
+  width: auto;
+}   
+
+.main-para{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px; 
+    padding-right: 10px;
+    padding-left: 10px;
+    /* align-items: center; */
+}
+
+li{
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+
+.resume-container{
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    margin-left: auto ;
+    margin-right: auto 
+}
+
+footer{
+    position: relative;
+    background-color: #88aab4;
+    text-align: center;
+    padding: 20px;
+}
+.aboutme-photo{
+    position: relative;
+    top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 20%;
+    transition: scale 0.2s;
+    overflow: hidden;
+}
+
+.aboutme-photo:hover{
+    transform: scale(1.5);
+}
+
+figcaption{
+    text-align: center;
+    margin-top: -8px;
+}
+
+.aboutme-para{
+    margin-top: 10px;
+}
+
+.project-image{
+    width: 10%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.project-image:hover{
+    background-color: gray;
+}
+
+.gallery-grid{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.photo-with-friends{
+    margin-top: 10px;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.photo-with-parents{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.laughing-photo{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.lums-photo{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+figcaption{
+    margin-top: 10px;
+}
